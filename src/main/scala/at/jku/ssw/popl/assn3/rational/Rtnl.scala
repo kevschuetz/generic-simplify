@@ -20,7 +20,21 @@ object Rtnl {
 
   private def gcd(a: Int, b: Int): Int = if (b == 0) a else gcd(b, a % b)
 
-  // TODO: given for Field[Rtnl]
+  given rtnlField: Field[Rtnl] with
+    def plus(x: Rtnl, y: Rtnl): Rtnl = {
+      Rtnl.apply(x.numer*y.denom+x.denom*y.numer, x.denom*y.denom)
+    }
+
+    def times(x: Rtnl, y: Rtnl): Rtnl =
+      Rtnl.apply(x.numer*y.numer,x.denom*y.denom)
+    def neg(x: Rtnl):Rtnl =
+      Rtnl.apply(-x.numer, x.denom)
+
+    def recip(x: Rtnl): Rtnl =
+      Rtnl.apply(x.denom, x.numer)
+
+    val zero: Rtnl = Rtnl.apply(0,1)
+    val one: Rtnl = Rtnl.apply(1,1)
 }
 
 // Application
@@ -33,6 +47,6 @@ object RtnlApp extends App {
         wholeNumber ^^ { case n => Rtnl(n.toInt) }
 
   }
-  RtnlInteractive.interact(Map("x" -> Rtnl(1, 2), "y" -> Rtnl(2, 3))) (using null) // TODO: delete using
+  RtnlInteractive.interact(Map("x" -> Rtnl(1, 2), "y" -> Rtnl(2, 3))) (using Rtnl.rtnlField) // TODO: delete using
 
 }
