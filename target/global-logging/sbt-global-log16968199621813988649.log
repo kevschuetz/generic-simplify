@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"52","parents":[]},"eventTime":1631611427652,"message":"Compiling root","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/#root/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/src/main/scala/at/jku/ssw/popl/assn2/imp/Expr.scala"},"buildTarget":{"uri":"file:/C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/src/main/scala/at/jku/ssw/popl/assn2/imp/Statement.scala"},"buildTarget":{"uri":"file:/C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/src/main/scala/at/jku/ssw/popl/assn2/imp/Main.scala"},"buildTarget":{"uri":"file:/C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/src/main/scala/at/jku/ssw/popl/assn2/imp/State.scala"},"buildTarget":{"uri":"file:/C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/src/main/scala/at/jku/ssw/popl/assn2/imp/Parser.scala"},"buildTarget":{"uri":"file:/C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/#root/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"52","parents":[]},"eventTime":1631611427671,"message":"Compiled root","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/#root/Compile"},"errors":0,"warnings":0,"time":19}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"53","parents":[]},"eventTime":1631611427683,"message":"Compiling root-test","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/#root/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/src/test/scala/Test1.scala"},"buildTarget":{"uri":"file:/C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/#root/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"53","parents":[]},"eventTime":1631611427698,"message":"Compiled root-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/#root/Test"},"errors":0,"warnings":0,"time":15}})[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 14.09.2021, 11:23:47[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / collectAnalyses[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0manalysis location (C:\Users\hp\Dropbox\Lehre\POPL2\POPL_2021\Prgrms\Scala\popl2021-assn2\target\scala-3.0.2\zinc\inc_compile_3.zip,true)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 14.09.2021, 11:23:47[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

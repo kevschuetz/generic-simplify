@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="TypingDemos,assn2_6253,popl2021-assn2,popl2021-assn3,popl2022-assn3,scala3-simple" />
+  </component>
+</project>

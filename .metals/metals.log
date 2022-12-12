@@ -1,0 +1,343 @@
+[0m2021.09.14 11:16:10 INFO  Started: Metals version 0.10.6 in workspace 'C:\Users\hp\Dropbox\Lehre\POPL2\POPL_2021\Prgrms\Scala\popl2021-assn2' for client Visual Studio Code 1.60.0.[0m
+[0m2021.09.14 11:16:14 INFO  time: initialize in 4.26s[0m
+[0m2021.09.14 11:16:15 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.14 11:16:22 WARN  no build target for: C:\Users\hp\Dropbox\Lehre\POPL2\POPL_2021\Prgrms\Scala\popl2021-assn2\src\main\scala\at\jku\ssw\popl\assn2\imp\Main.scala[0m
+[0m2021.09.14 11:16:26 INFO  running 'C:\Program Files\Java\jdk-15.0.2\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\hp\AppData\Local\Temp\metals9464326351781868609\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.09.14 11:16:31 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.09.14 11:16:31 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 15.0.2)[0m
+[0m2021.09.14 11:16:35 INFO  [info] loading global plugins from C:\Users\hp\.sbt\1.0\plugins[0m
+[0m2021.09.14 11:16:36 INFO  time: code lens generation in 13s[0m
+[0m2021.09.14 11:16:36 INFO  time: code lens generation in 9.62s[0m
+[0m2021.09.14 11:16:44 INFO  [info] loading settings for project popl2021-assn2-build-build from metals.sbt ...[0m
+[0m2021.09.14 11:16:44 INFO  [info] loading project definition from C:\Users\hp\Dropbox\Lehre\POPL2\POPL_2021\Prgrms\Scala\popl2021-assn2\project\project[0m
+[0m2021.09.14 11:16:48 INFO  [info] loading settings for project popl2021-assn2-build from metals.sbt ...[0m
+[0m2021.09.14 11:16:48 INFO  [info] loading project definition from C:\Users\hp\Dropbox\Lehre\POPL2\POPL_2021\Prgrms\Scala\popl2021-assn2\project[0m
+[0m2021.09.14 11:16:54 INFO  [success] Generated .bloop\popl2021-assn2-build.json[0m
+[0m2021.09.14 11:16:54 INFO  [success] Total time: 6 s, completed 14.09.2021, 11:16:54[0m
+[0m2021.09.14 11:16:57 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.09.14 11:16:57 INFO  [info] set current project to popl2021-assn2 (in build file:/C:/Users/hp/Dropbox/Lehre/POPL2/POPL_2021/Prgrms/Scala/popl2021-assn2/)[0m
+[0m2021.09.14 11:16:58 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2021.09.14 11:16:58 INFO  [success] Generated .bloop\root.json[0m
+[0m2021.09.14 11:16:58 INFO  [success] Total time: 0 s, completed 14.09.2021, 11:16:58[0m
+[0m2021.09.14 11:16:58 INFO  time: ran 'sbt bloopInstall' in 32s[0m
+[0m2021.09.14 11:16:58 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 32338'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\hp\Dropbox\Lehre\POPL2\POPL_2021\Prgrms\Scala\popl2021-assn2\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\hp\Dropbox\Lehre\POPL2\POPL_2021\Prgrms\Scala\popl2021-assn2\.bloop\root.json'
+[0m[32m[D][0m Loading project from 'c:\Users\hp\Dropbox\Lehre\POPL2\POPL_2021\Prgrms\Scala\popl2021-assn2\.bloop\root-test.json'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Missing analysis file for project 'root'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:32338...
+The server is listening for incoming connections at tcp://127.0.0.1:32338...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.09.14 11:16:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.09.14 11:16:59 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 11729'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:11729...
+The server is listening for incoming connections at tcp://127.0.0.1:11729...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.09.14 11:17:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.09.14 11:17:00 INFO  time: Connected to build server in 1.83s[0m
+[0m2021.09.14 11:17:00 INFO  Connected to Build server: Bloop v1.4.8-114-e47368ed[0m
+[0m2021.09.14 11:17:09 INFO  time: indexed workspace in 8.74s[0m
+[0m2021.09.14 11:17:11 INFO  no build target: using presentation compiler with only scala-library: 3.0.2[0m
+[0m2021.09.14 11:20:16 INFO  compiling root (5 scala sources)[0m
+[0m2021.09.14 11:20:19 INFO  compiling root-test (1 scala source)[0m
+[0m2021.09.14 11:20:19 INFO  time: compiled root in 3.2s[0m
+[0m2021.09.14 11:20:19 INFO  time: compiled root-test in 0.41s[0m
+[0m2021.09.14 11:20:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:20:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:20:34 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:20:34 INFO  Trying to attach to remote debuggee VM 127.0.0.1:52489 .[0m
+[0m2021.09.14 11:20:34 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:21:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:21:05 INFO  Closing debug server tcp://0.0.0.0:52487[0m
+[0m2021.09.14 11:21:05 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:21:05 ERROR Read data from io exception: java.net.SocketException: Socket closed[0m
+[0m2021.09.14 11:21:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:21:05 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:21:05 INFO  Trying to attach to remote debuggee VM 127.0.0.1:52444 .[0m
+[0m2021.09.14 11:21:05 INFO  Attaching to debuggee VM succeeded.[0m
+Sep. 14, 2021 11:21:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 39
+[0m2021.09.14 11:21:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:21:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:21:22 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:21:22 INFO  Trying to attach to remote debuggee VM 127.0.0.1:52456 .[0m
+[0m2021.09.14 11:21:22 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:21:52 INFO  Closing debug server tcp://0.0.0.0:52441[0m
+[0m2021.09.14 11:21:52 ERROR Read data from io exception: java.net.SocketException: Socket closed[0m
+[0m2021.09.14 11:21:52 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:10 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:22:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:22:11 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:11 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55640 .[0m
+[0m2021.09.14 11:22:11 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:22:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:22:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:22:12 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:12 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55644 .[0m
+[0m2021.09.14 11:22:12 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:22:20 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:22:20 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:22:21 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:21 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55655 .[0m
+[0m2021.09.14 11:22:21 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:22:35 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:35 ERROR Read data from io exception: java.net.SocketException: Socket closed[0m
+[0m2021.09.14 11:22:36 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:22:36 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:22:37 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:37 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55681 .[0m
+[0m2021.09.14 11:22:37 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:22:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:22:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:22:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:22:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:22:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:22:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:22:39 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:39 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:39 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55700 .[0m
+[0m2021.09.14 11:22:39 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55703 .[0m
+[0m2021.09.14 11:22:39 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:22:39 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:22:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:22:39 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:22:39 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:39 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55705 .[0m
+[0m2021.09.14 11:22:39 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:22:39 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55704 .[0m
+[0m2021.09.14 11:22:39 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:22:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:22:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:22:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:22:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:22:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:22:42 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:22:42 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:42 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55721 .[0m
+[0m2021.09.14 11:22:42 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55726 .[0m
+[0m2021.09.14 11:22:42 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:22:42 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:22:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:22:42 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:22:42 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:42 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55725 .[0m
+[0m2021.09.14 11:22:42 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55727 .[0m
+[0m2021.09.14 11:22:42 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:22:42 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:22:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:22:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:22:45 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:45 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:22:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:22:48 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:48 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:22:48 INFO  Closing debug server tcp://0.0.0.0:55739[0m
+Sep. 14, 2021 11:23:06 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.09.14 11:23:28 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:23:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:23:31 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:31 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59151 .[0m
+[0m2021.09.14 11:23:31 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:23:37 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:23:37 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:23:37 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:37 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59168 .[0m
+[0m2021.09.14 11:23:37 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:23:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:23:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:23:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:23:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:23:39 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:39 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:39 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59183 .[0m
+[0m2021.09.14 11:23:39 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59182 .[0m
+[0m2021.09.14 11:23:39 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:23:39 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:23:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:23:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:23:41 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:41 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59198 .[0m
+[0m2021.09.14 11:23:41 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:23:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:23:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:23:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:23:43 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:23:44 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:44 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59210 .[0m
+[0m2021.09.14 11:23:44 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:23:43 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:23:44 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:43 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:23:44 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:44 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59211 .[0m
+[0m2021.09.14 11:23:44 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59208 .[0m
+[0m2021.09.14 11:23:44 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:23:44 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:23:51 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:23:51 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:23:51 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:51 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59232 .[0m
+[0m2021.09.14 11:23:51 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:23:53 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:23:53 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:23:53 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:23:53 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:23:54 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:23:53 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:54 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59248 .[0m
+[0m2021.09.14 11:23:54 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:23:53 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:23:53 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:54 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59251 .[0m
+[0m2021.09.14 11:23:54 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:23:53 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:23:53 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:54 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59252 .[0m
+[0m2021.09.14 11:23:54 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:23:53 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:23:53 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:54 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59253 .[0m
+[0m2021.09.14 11:23:54 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:23:55 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:23:55 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:23:55 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:23:55 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59261 .[0m
+[0m2021.09.14 11:23:55 INFO  Attaching to debuggee VM succeeded.[0m
+Sep. 14, 2021 11:24:37 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.09.14 11:24:39 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:24:39 INFO  Closing debug server tcp://0.0.0.0:59149[0m
+[0m2021.09.14 11:24:39 ERROR Read data from io exception: java.net.SocketException: Socket closed[0m
+Sep. 14, 2021 11:25:05 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.09.14 11:25:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:25:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:25:10 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:25:10 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57830 .[0m
+[0m2021.09.14 11:25:10 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.09.14 11:25:35 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:25:35 ERROR Read data from io exception: java.net.SocketException: Socket closed[0m
+[0m2021.09.14 11:25:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:25:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:25:38 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:25:38 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57839 .[0m
+[0m2021.09.14 11:25:38 INFO  Attaching to debuggee VM succeeded.[0m
+Sep. 14, 2021 11:26:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 147
+Sep. 14, 2021 11:26:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 153
+Sep. 14, 2021 11:26:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 159
+[0m2021.09.14 11:27:05 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:27:07 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:27:07 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:27:08 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:27:08 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:27:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.09.14 11:27:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.09.14 11:27:10 INFO  Starting debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:27:10 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:27:10 INFO  Closing debug server tcp://0.0.0.0:56568[0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:55694[0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:55711[0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:59237[0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:59191[0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:59178[0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:59200[0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:59243[0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:59205[0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:55719[0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:55688[0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:55713[0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:55716[0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:59202[0m
+[0m2021.09.14 11:28:00 INFO  shutting down Metals[0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:59258[0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0m
+[0m2021.09.14 11:28:00 INFO  Canceling debug proxy for [at.jku.ssw.popl.assn2.imp.Main][0mNo more data in the server stdin, exiting...
+
+No more data in the server stdin, exiting...
+[0m2021.09.14 11:28:00 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:59176[0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:59227[0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:57827[0m
+[0m2021.09.14 11:28:00 INFO  Shut down connection with build server.[0m
+[0m2021.09.14 11:28:00 INFO  Closing debug server tcp://0.0.0.0:55692[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.09.14 12:00:54 INFO  Started: Metals version 0.10.6 in workspace 'C:\Users\hp\Dropbox\Lehre\POPL2\POPL_2021\Prgrms\Scala\popl2021-assn2' for client Visual Studio Code 1.60.0.[0m
+[0m2021.09.14 12:00:56 INFO  time: initialize in 2.87s[0m
+[0m2021.09.14 12:00:57 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 19697'...
+Waiting for the bsp connection to come up...
+[0m2021.09.14 12:00:56 INFO  skipping build import with status 'Installed'[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:19697...
+The server is listening for incoming connections at tcp://127.0.0.1:19697...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.09.14 12:00:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.09.14 12:00:57 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40134'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40134...
+The server is listening for incoming connections at tcp://127.0.0.1:40134...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.09.14 12:00:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\hp\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.09.14 12:00:59 INFO  time: Connected to build server in 1.56s[0m
+[0m2021.09.14 12:00:59 INFO  Connected to Build server: Bloop v1.4.8-114-e47368ed[0m
+[0m2021.09.14 12:01:04 INFO  time: indexed workspace in 4.91s[0m
+[0m2021.09.14 12:01:07 INFO  no build target: using presentation compiler with only scala-library: 3.0.2[0m
+Sep. 14, 2021 12:01:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2021.09.14 12:04:51 INFO  shutting down Metals[0m
+[0m2021.09.14 12:04:51 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0mNo more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2021.09.14 12:04:51 INFO  Shut down connection with build server.[0m
